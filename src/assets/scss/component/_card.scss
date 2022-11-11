@@ -1,0 +1,27 @@
+.card {
+    height: 454px;
+    width: 320px;
+}
+
+.card-wrapper {
+    margin: 16px 16px 0 16px;
+
+    .card-title {
+        margin-bottom: 16px;
+    }
+
+    .image-wrapper {
+        height: 248px;
+        width: 288px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        font-size: 18px;
+        height: 50px;
+        width: 288px;
+        margin: 20px 0px;
+    }
+
+}

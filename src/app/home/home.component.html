@@ -1,0 +1,23 @@
+<div class="">
+    <ngb-carousel [showNavigationArrows]="false" class="carouselwrapper overflow-hidden" *ngIf="images">
+        <ng-template ngbSlide *ngFor="let event of lastFiveData">
+            <div class="picsum-img-wrapper">
+                <img class="w-100" src="{{event.img}}" alt="Random first slide" />
+            </div>
+            <div class="carousel-text-wrapper ">
+                <div class="carousel-text text-white">
+                    <h5>MOST POPULAR</h5>
+                    <span class="text-white crtext">CREATIVE SPACE </span> <span class="text-white crtext">STUDIO</span>
+                    <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio minima dolorem ullam,
+                        officiis quibusdam libero magnam adipisci.</h4>
+                </div>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+<div class="Explore-studio row d-flex">
+    <div class="col cards m-0" *ngFor="let event of [1,2,3,4,5]">
+        <app-cards></app-cards>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+// .wrapper {}
+
+.carouselwrapper {
+    height: 350px;
+    border-radius: 14px;
+    margin: 0 80px 40px 80px;
+    position: relative;
+
+    .carousel-text-wrapper {
+        background: linear-gradient(to right, #0D0F14 40%, transparent);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 995px;
+
+        .carousel-text {
+            margin: 53px 0 0 53px;
+
+            .crtext {
+                font-size: 36px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.Explore-studio {
+    height: 626px;
+    background: linear-gradient(180deg, #F9F7F7 0%, rgba(249, 247, 247, 0) 100%);
+    margin: 0 80px;
+
+    .cards {
+        margin-right: 0px;
+    }
+}
