@@ -22,7 +22,8 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.artistData()
+    this.artistData();
+
   }
 
 
@@ -32,5 +33,11 @@ export class HomeComponent implements OnInit {
       this.lastFiveData = this.artisFiveData.slice((this.artisFiveData.length - 5), this.artisFiveData.length).reverse()
     })
   }
+
+  // public getArtistFiveImage(event: any) {
+  //   this.lastFiveData = event.slice(-5);
+
+  // }
+
 
 }

@@ -3,11 +3,11 @@
 .carouselwrapper {
     height: 350px;
     border-radius: 14px;
-    margin: 0 80px 40px 80px;
+    margin: 0 80px;
     position: relative;
 
     .carousel-text-wrapper {
-        background: linear-gradient(to right, #0D0F14 40%, transparent);
+        background: linear-gradient(to right, #0D0F14 50%, transparent);
         position: absolute;
         top: 0;
         height: 100%;
@@ -20,16 +20,82 @@
                 font-size: 36px;
                 font-weight: bold;
             }
+
+            .crtext-role {
+                // color: transparent !important;
+                font-size: 36px;
+                font-weight: bold;
+                background: -webkit-linear-gradient(right, #2D6DD5, #35B5C8);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-stroke: 2.5px transparent;
+                color: #0D0F14 !important;
+            }
+
+            .btn {
+                width: 204px;
+                height: 50px;
+                margin-top: 40px;
+                background: linear-gradient(270.17deg, #2D6DD5 1.37%, #35B5C8 99.86%);
+            }
         }
     }
 }
 
 .Explore-studio {
-    height: 626px;
+    // height: 626px;
     background: linear-gradient(180deg, #F9F7F7 0%, rgba(249, 247, 247, 0) 100%);
-    margin: 0 80px;
+    padding: 0 80px;
+    margin-top: 40px;
+
+    .explore-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 80%;
+        margin: 42px 0 38px 0;
+    }
+
+    .see-all-text {
+        font-size: 16px;
+        font-weight: 600;
+        // color: $text-primary;
+    }
 
     .cards {
-        margin-right: 0px;
+        // margin-right: 0px;
+        margin-bottom: 65px;
+    }
+}
+
+/* responsive */
+
+@media(max-width:1400px) {
+    .cards:nth-last-child(-n+1) {
+        display: none;
+    }
+
+    // .Explore-studio {
+    //     margin-right: -12px;
+    // }
+}
+
+@media(max-width:1200px) {
+    .cards:nth-last-child(-n+2) {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {
+    .cards:nth-last-child(-n+3) {
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .cards {
+        flex-direction: column;
+        // height: 100%;
     }
 }
