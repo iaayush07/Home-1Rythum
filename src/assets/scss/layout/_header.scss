@@ -69,3 +69,20 @@
         padding: $nav-link-padding-x;
     }
 }
+
+.has-search .form-control {
+    padding-left: 40px;
+    width: 250px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}

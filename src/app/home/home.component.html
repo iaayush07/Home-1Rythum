@@ -1,21 +1,26 @@
-<div class="main-wrapper overflow-auto h-100">
+<div class="h-100 bg-white">
     <div class="row gx-0">
         <div class="col">
-            <ngb-carousel class="col carouselwrapper overflow-hidden" [showNavigationArrows]="false" *ngIf="images">
-                <ng-template ngbSlide *ngFor="let event of lastFiveData">
+            <ngb-carousel class="col carousel-wrapper overflow-hidden" [showNavigationArrows]="false">
+                <ng-template ngbSlide *ngFor="let event of mergeImage">
                     <div class="picsum-img-wrapper">
-                        <img class="w-100" src="{{event.img}}" alt="Random first slide" />
+                        <img class="w-100 img-fluid" src="{{event.img}}" alt="Random first slide" />
                     </div>
                     <div class="carousel-text-wrapper ">
                         <div class="carousel-text text-white">
                             <h5>MOST POPULAR</h5>
-                            <span class="text-white crtext">CREATIVE SPACE </span> <span
+                            <span class="text-white crtext">{{event.eventLocation + " "}}</span> <span
                                 class="text-white crtext-role">STUDIO</span>
-                            <h4 class="text-truncate description">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            <h4 class="truncate-overflow description">Lorem ipsum dolor, sit amet
+                                consectetur
+                                adipisicing
                                 elit.
                                 Distinctio minima dolorem
                                 ullam,
-                                officiis quibusdam libero magnam adipisci.</h4>
+                                officiis quibusdam libero magnam adipisci. Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Quibusdam explicabo ullam quam facilis eius, pariatur, ipsum
+                                repudiandae minus, inventore eligendi eos assumenda sint voluptatum tempore. Aliquid
+                                dignissimos laudantium autem maxime.</h4>
                             <a href="#" class="btn btn-primary d-flex align-items-center justify-content-center">View
                                 Details</a>
                         </div>
@@ -32,8 +37,8 @@
         </div>
     </div>
     <div class="Explore-studio row gx-0 d-flex justify-content-between">
-        <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6  col-xs-12 cards" *ngFor="let event of [1,2,3,4,5]">
-            <app-cards></app-cards>
+        <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-xs-12 cards" *ngFor="let studio of studioFiveData">
+            <app-cards [data]="studio"> </app-cards>
         </div>
     </div>
     <!-- Explore Artist -->
@@ -44,8 +49,8 @@
         </div>
     </div>
     <div class="Explore-studio row gx-0 d-flex justify-content-between">
-        <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-xs-12 cards" *ngFor="let event of [1,2,3,4,5]">
-            <app-cards></app-cards>
+        <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-xs-12 cards" *ngFor="let artist of artistFiveData">
+            <app-cards [data]="artist"></app-cards>
         </div>
     </div>
 </div>

@@ -8,9 +8,9 @@ import { Observable } from 'rxjs';
 export class ImageService {
 
   constructor(private http: HttpClient) { }
-  getCarouselData(): Observable<any> {
-    return this.http.get("http://localhost:3000/carosuel")
-  }
+  // getCarouselData(): Observable<any> {
+  //   return this.http.get("http://localhost:3000/carosuel")
+  // }
   getStuidoImage(): Observable<any> {
     return this.http.get("http://localhost:3000/studio")
   }

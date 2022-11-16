@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ImageService } from 'src/app/home/image.service';
 
 @Component({
@@ -8,8 +8,12 @@ import { ImageService } from 'src/app/home/image.service';
 })
 export class CardsComponent implements OnInit {
 
-  // public ArtistFiveImage: any = [];
-  constructor() { }
+  @Input() data: any;
+  //model
+  // public Image: any = [];
+  constructor() {
+    this.data = [];
+  }
   // private imageService: ImageService
   ngOnInit(): void {
   }

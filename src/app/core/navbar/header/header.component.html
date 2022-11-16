@@ -1,4 +1,4 @@
-<nav class="navbar bg-white">
+<nav class="navbar bg-white w-100">
     <div class="container-fluid header-wrapper">
         <div class="d-flex justify-content-between align-items-center w-100">
             <!-- brand logo -->
@@ -41,34 +41,41 @@
                 </ul>
             </div>
             <!-- profile -->
-            <div ngbDropdown display="dynamic" placement="bottom-end" class="d-inline-block">
-                <!-- <button type="button" class="btn btn-outline-primary" >
-                    Toggle dropdown
-                </button> -->
-                <div class="rounded-circle image overflow-hidden " type="button" id="manageProfileDropdown"
-                    ngbDropdownToggle>
-                    <img src="../../../../assets/images/marco-bicca-Z8Rf8EVS2Wc-unsplash 1.png"
-                        class=" img-fluid image " alt="">
+            <div class="d-flex">
+                <div class="form-group has-search me-4 bg-light d-none">
+                    <span class="bi bi-search form-control-feedback"></span>
+                    <input type="text" class="form-control" placeholder="Search">
                 </div>
-                <div class="border-0 shadow-sm" ngbDropdownMenu aria-labelledby="manageProfileDropdown">
-                    <!-- <li class="item px-3 py-1">
-                        <div class="form-switch p-0 d-flex align-items-center justify-content-between">
-                            <label class="form-check-label cursor-pointer"
-                                for="flexSwitchCheckDefault">Available</label>
-                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                id="flexSwitchCheckDefault">
-                        </div>
-                    </li> -->
-                    <li class="item px-3 py-1">
-                        Manage Profile
-                    </li>
+                <div ngbDropdown display="dynamic" placement="bottom-end" class="d-inline-block">
+                    <!-- <button type="button" class="btn btn-outline-primary" >
+                        Toggle dropdown
+                    </button> -->
+                    <div class="rounded-circle image overflow-hidden " type="button" id="manageProfileDropdown"
+                        ngbDropdownToggle>
+                        <img src="../../../../assets/images/marco-bicca-Z8Rf8EVS2Wc-unsplash 1.png"
+                            class=" img-fluid image " alt="">
+                    </div>
+                    <div class="border-0 shadow-sm" ngbDropdownMenu aria-labelledby="manageProfileDropdown">
+                        <!-- <li class="item px-3 py-1">
+                            <div class="form-switch p-0 d-flex align-items-center justify-content-between">
+                                <label class="form-check-label cursor-pointer"
+                                    for="flexSwitchCheckDefault">Available</label>
+                                <input class="form-check-input m-0" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+                            </div>
+                        </li> -->
+                        <li class="item px-3 py-1">
+                            Manage Profile
+                        </li>
 
-                    <!-- <li class="item px-3 py-1 text-nowrap">
-                        Manage Studio Profile
-                    </li> -->
-                    <li class="item px-3 py-1">Log Out</li>
+                        <!-- <li class="item px-3 py-1 text-nowrap">
+                            Manage Studio Profile
+                        </li> -->
+                        <li class="item px-3 py-1">Log Out</li>
+                    </div>
                 </div>
             </div>
+
 
         </div>
 

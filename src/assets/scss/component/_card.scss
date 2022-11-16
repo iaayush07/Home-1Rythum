@@ -23,6 +23,23 @@
             height: 100%;
         }
 
+
+    }
+
+    .truncate-overflow {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        text-overflow: ellipsis;
+        // line-height: 50%;
+        -webkit-box-orient: vertical;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+    .card-text {
+        height: 48px;
     }
 
     .btn {
