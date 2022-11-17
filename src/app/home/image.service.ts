@@ -17,4 +17,11 @@ export class ImageService {
   getArtistImage(): Observable<any> {
     return this.http.get("http://localhost:3000/artist")
   }
+
+  getArray(): Observable<any> {
+    return this.http.get("http://localhost:3000/array")
+  }
+  // getImage():Observable<any>{
+  //   return this.ht
+  // }
 }

@@ -9,12 +9,14 @@ import { ImageService } from './image.service';
 })
 export class HomeComponent implements OnInit {
 
-  public artistFiveData: string = "Ayush"
+  public artistFiveData: any = [];
   public lastArtistImage: any = []
   public mergeImage: any = []
   public artistAllData: any = []
   public lastFiveData: any = []
   public artisFiveData: any = []
+  public arrayImage: any = []
+  public finalImage: any = []
 
   //--------------------------
   public carosuelFourImage: any = []
@@ -37,6 +39,7 @@ export class HomeComponent implements OnInit {
     this.CarouselData();
     this.artistData();
     this.studioData();
+    this.getArray();
   }
 
 
@@ -59,10 +62,8 @@ export class HomeComponent implements OnInit {
     })
   }
   artistData() {
-    this.imageservice.getArtistImage().subscribe(res => {
+    this.imageservice.getArtistImage().subscribe((res) => {
       this.artistFiveData = res.slice(-5).reverse();
-      // this.lastFiveData = this.artisFiveData.slice(-5).reverse()
-      // this.lastFiveData = this.artisFiveData.slice((this.artisFiveData.length - 5), this.artisFiveData.length).reverse()
     })
     // console.log(this.carouselAllData['img']);
   }
@@ -73,5 +74,24 @@ export class HomeComponent implements OnInit {
     })
   }
 
+  getArray() {
+    this.imageservice.getArray().subscribe(res => {
+      // console.log(res);
+
+      this.arrayImage = res.filter((item: any) => {
+        console.log(item);
+
+        const img = item.img;
+        console.log(img);
+
+        return img.map((image: any) => {
+          // console.log(image);
+
+          this.finalImage = image.img1
+          console.log(this.finalImage);
+        })
+      })
+    })
+  }
 
 }

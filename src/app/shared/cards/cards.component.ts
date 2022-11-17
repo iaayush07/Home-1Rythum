@@ -9,19 +9,12 @@ import { ImageService } from 'src/app/home/image.service';
 export class CardsComponent implements OnInit {
 
   @Input() data: any;
-  //model
-  // public Image: any = [];
+
   constructor() {
     this.data = [];
   }
-  // private imageService: ImageService
+
   ngOnInit(): void {
   }
-
-  // getArtistImage() {
-  //   this.imageService.getArtistImage().subscribe(res => {
-  //     this.ArtistFiveImage = res.slice(-5)
-  //   })
-  // }
 
 }
