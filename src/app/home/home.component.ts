@@ -78,7 +78,7 @@ export class HomeComponent implements OnInit {
     this.imageservice.getArray().subscribe(res => {
       // console.log(res);
 
-      this.arrayImage = res.filter((item: any) => {
+      this.arrayImage = res.slice(-5).reverse().filter((item: any) => {
         console.log(item);
 
         const img = item.img;

@@ -358,6 +358,66 @@
             ],
             "eventStartDate": "new Date('2019/07/28')",
             "eventEndingDate": "new Date('2019/07/30')"
+        },
+        {
+            "id": "1",
+            "event": "Event 1",
+            "eventLocation": "Bangalore",
+            "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
+            "img": [
+                {
+                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img2": "https://picsum.photos/900/500?random&t=2",
+                    "img3": "https://picsum.photos/900/500?random&t=3"
+                }
+            ],
+            "eventStartDate": "new Date('2019/05/20')",
+            "eventEndingDate": " new Date('2019/05/24')"
+        },
+        {
+            "id": "2",
+            "event": " Event 2'",
+            "eventLocation": "Dubai'",
+            "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
+            "img": [
+                {
+                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img2": "https://picsum.photos/900/500?random&t=2",
+                    "img3": "https://picsum.photos/900/500?random&t=3"
+                }
+            ],
+            "eventStartDate": "new Date('2019/07/28')",
+            "eventEndingDate": "new Date('2019/07/30')"
+        },
+        {
+            "id": "1",
+            "event": "Event 1",
+            "eventLocation": "Bangalore",
+            "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
+            "img": [
+                {
+                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img2": "https://picsum.photos/900/500?random&t=2",
+                    "img3": "https://picsum.photos/900/500?random&t=3"
+                }
+            ],
+            "eventStartDate": "new Date('2019/05/20')",
+            "eventEndingDate": " new Date('2019/05/24')"
+        },
+        {
+            "id": "2",
+            "event": " Event 2'",
+            "eventLocation": "Dubai'",
+            "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
+            "img": [
+                {
+                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img2": "https://picsum.photos/900/500?random&t=2",
+                    "img3": "https://picsum.photos/900/500?random&t=3"
+                }
+            ],
+            "eventStartDate": "new Date('2019/07/28')",
+            "eventEndingDate": "new Date('2019/07/30')"
         }
     ]
 }
