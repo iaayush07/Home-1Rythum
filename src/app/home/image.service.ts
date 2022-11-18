@@ -1,13 +1,20 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ImageService {
 
-  constructor(private http: HttpClient) { }
+  //----------------
+  public statusAvailable: Subject<boolean>;
+  public status$: Observable<boolean>;
+
+  constructor(private http: HttpClient) {
+    this.statusAvailable = new Subject;
+    this.status$ = this.statusAvailable.asObservable();
+  }
   // getCarouselData(): Observable<any> {
   //   return this.http.get("http://localhost:3000/carosuel")
   // }
@@ -24,4 +31,10 @@ export class ImageService {
   // getImage():Observable<any>{
   //   return this.ht
   // }
+
+  //------------------------
+
+
+
+
 }

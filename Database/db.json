@@ -3,6 +3,7 @@
         {
             "event": "Event 1",
             "eventLocation": "Bangalore",
+            "artistType": "singer",
             "artistDescription": "In bangalore, first event is going to happen. Please be careful about it",
             "img": "https://picsum.photos/900/500?random&t=1",
             "eventStartDate": "new Date('2019/05/20')",
@@ -10,7 +11,8 @@
         },
         {
             "event": " Event 2'",
-            "eventLocation": "Dubai'",
+            "eventLocation": "Dubai",
+            "artistType": "singer",
             "artistDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": "https://picsum.photos/900/500?random&t=3'",
             "eventStartDate": "new Date('2019/07/28')",
@@ -19,6 +21,7 @@
         {
             "event": " Event 3",
             "eventLocation": "New York",
+            "artistType": "singer",
             "artistDescription": "NewYork sits on top of event hosting",
             "img": "https://picsum.photos/900/500?random&t=4",
             "eventStartDate": " new Date('2020/05/20')",
@@ -27,6 +30,7 @@
         {
             "event": " Event 4",
             "eventLocation": "Singapore",
+            "artistType": "singer",
             "artistDescription": "Singapore is another great hosting city",
             "img": "https://picsum.photos/900/500?random&t=6",
             "eventStartDate": "new Date('2018/05/20')",
@@ -35,6 +39,7 @@
         {
             "event": " Event 5",
             "eventLocation": "Berlin",
+            "artistType": "dj",
             "artistDescription": "Berlin is best place to hang on",
             "img": "https://picsum.photos/900/500?random&t=7",
             "eventStartDate": "new Date('2017/07/10')",
@@ -43,6 +48,7 @@
         {
             "event": " Event 6",
             "eventLocation": "Mumbai",
+            "artistType": "dancer",
             "artistDescription": "Mumbai is hub of startups",
             "img": "https://picsum.photos/900/500?random&t=8",
             "eventStartDate": "new Date()",
@@ -51,6 +57,7 @@
         {
             "event": " Event 7",
             "eventLocation": "Barcelona",
+            "artistType": "singer",
             "artistDescription": "Barcelona is another good city",
             "img": "https://picsum.photos/900/500?random&t=6",
             "eventStartDate": "new Date()",
@@ -60,6 +67,7 @@
             "id": "6",
             "event": " Event 2'",
             "eventLocation": "Dubai'",
+            "artistType": "dj",
             "artistDescription": "Ayush is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": "https://picsum.photos/900/500?random&t=3'",
             "eventStartDate": "new Date('2019/07/28')",
@@ -69,6 +77,7 @@
             "id": "7",
             "event": " Event 3",
             "eventLocation": "New York",
+            "artistType": "dancer",
             "artistDescription": "Ayush sits on top of event hosting",
             "img": "https://picsum.photos/900/500?random&t=4",
             "eventStartDate": " new Date('2020/05/20')",

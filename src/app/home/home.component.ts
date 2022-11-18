@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
   public studioTwoImage: any = []
   public artistTwoImage: any = []
   public studioFiveData: any = []
+  // studio: TemplateRef<NgIfContext<any>>|null;
 
 
   // images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
@@ -40,6 +41,10 @@ export class HomeComponent implements OnInit {
     this.artistData();
     this.studioData();
     this.getArray();
+
+    // this.imageservice.statusAvailable.subscribe((res) => {
+    //   console.log(res);
+    // })
   }
 
 
@@ -79,16 +84,16 @@ export class HomeComponent implements OnInit {
       // console.log(res);
 
       this.arrayImage = res.slice(-5).reverse().filter((item: any) => {
-        console.log(item);
+        // console.log(item);
 
         const img = item.img;
-        console.log(img);
+        // console.log(img);
 
         return img.map((image: any) => {
           // console.log(image);
 
           this.finalImage = image.img1
-          console.log(this.finalImage);
+          // console.log(this.finalImage);
         })
       })
     })
