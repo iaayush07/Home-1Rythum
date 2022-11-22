@@ -37,9 +37,9 @@
             <span class="see-all-text text-primary text-nowrap">SEE ALL</span>
         </div>
     </div>
-    <div class="Explore-studio row gx-0 d-flex justify-content-between">
+    <div class="Explore-studio row gx-0 d-flex ">
         <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-xs-12 cards"
-            *ngFor="let studio of arrayImage; let i=index">
+            *ngFor="let studio of arrayImage | search : search ; let i=index  ">
             <app-cards [data]="studio"></app-cards>
         </div>
     </div>
@@ -52,7 +52,7 @@
     </div>
     <div class="Explore-studio row gx-0 d-flex justify-content-between">
         <div class="col-xxl-2 col-xl-3 col-lg-6 col-md-6 col-xs-12 cards"
-            *ngFor="let artist of artistFiveData; let i=index">
+            *ngFor="let artist of artistFiveData | search : search; let i=index">
             <app-cards [data]="artist"></app-cards>
         </div>
     </div>

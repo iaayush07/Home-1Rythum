@@ -87,7 +87,7 @@
     "studio": [
         {
             "event": "Event 1",
-            "eventLocation": "Bangalore",
+            "studioEventLocation": "Surat",
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
             "img": [
                 {
@@ -101,7 +101,7 @@
         },
         {
             "event": " Event 2'",
-            "eventLocation": "Dubai'",
+            "studioEventLocation": "Dubai'",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
                 {
@@ -115,7 +115,7 @@
         },
         {
             "event": " Event 3",
-            "eventLocation": "New York",
+            "studioEventLocation": "New York",
             "eventDescription": "NewYork sits on top of event hosting",
             "img": [
                 {
@@ -129,7 +129,7 @@
         },
         {
             "event": " Event 4",
-            "eventLocation": "Singapore",
+            "studioEventLocation": "Singapore",
             "eventDescription": "Singapore is another great hosting city",
             "img": [
                 {
@@ -143,7 +143,7 @@
         },
         {
             "event": " Event 5",
-            "eventLocation": "Berlin",
+            "studioEventLocation": "Berlin",
             "eventDescription": "Berlin is best place to hang on",
             "img": [
                 {
@@ -158,7 +158,7 @@
         {
             "id": "6",
             "event": " Event 2'",
-            "eventLocation": "Dubai'",
+            "studioEventLocation": "Dubai'",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
                 {
@@ -173,7 +173,7 @@
         {
             "id": "7",
             "event": " Event 3",
-            "eventLocation": "New York",
+            "studioEventLocation": "New York",
             "eventDescription": "NewYork sits on top of event hosting",
             "img": [
                 {
@@ -356,11 +356,11 @@
         {
             "id": "2",
             "event": " Event 2'",
-            "eventLocation": "Dubai'",
+            "eventLocation": "Navsari",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
                 {
-                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img1": "https://picsum.photos/900/500?random&t=1",
                     "img2": "https://picsum.photos/900/500?random&t=2",
                     "img3": "https://picsum.photos/900/500?random&t=3"
                 }
@@ -371,13 +371,13 @@
         {
             "id": "1",
             "event": "Event 1",
-            "eventLocation": "Bangalore",
+            "eventLocation": "surat",
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
             "img": [
                 {
                     "img1": "https://picsum.photos/900/500?random&t=7",
                     "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
+                    "img3": "https://picsum.photos/900/500?random&t=5"
                 }
             ],
             "eventStartDate": "new Date('2019/05/20')",
@@ -390,9 +390,9 @@
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
                 {
-                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img1": "https://picsum.photos/900/500?random&t=8",
                     "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
+                    "img3": "https://picsum.photos/900/500?random&t=6"
                 }
             ],
             "eventStartDate": "new Date('2019/07/28')",
@@ -405,9 +405,9 @@
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
             "img": [
                 {
-                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img1": "https://picsum.photos/900/500?random&t=5",
                     "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
+                    "img3": "https://picsum.photos/900/500?random&t=4"
                 }
             ],
             "eventStartDate": "new Date('2019/05/20')",
@@ -420,7 +420,7 @@
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
                 {
-                    "img1": "https://picsum.photos/900/500?random&t=7",
+                    "img1": "https://picsum.photos/900/500?random&t=4",
                     "img2": "https://picsum.photos/900/500?random&t=2",
                     "img3": "https://picsum.photos/900/500?random&t=3"
                 }

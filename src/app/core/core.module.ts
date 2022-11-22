@@ -4,7 +4,7 @@ import { MasterComponent } from './master/master.component';
 import { HeaderComponent } from './navbar/header/header.component';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,8 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     RouterModule,
     NgbModule,
-    ReactiveFormsModule,
-
+    ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }),
+    FormsModule
   ],
   exports: [
     MasterComponent, HeaderComponent

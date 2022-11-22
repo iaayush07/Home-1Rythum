@@ -11,9 +11,16 @@ export class ImageService {
   public statusAvailable: Subject<boolean>;
   public status$: Observable<boolean>;
 
+  //-----------------------
+  public searchBox: Subject<any>;
+  public seacrhBoxText$: Observable<any>;
+
   constructor(private http: HttpClient) {
     this.statusAvailable = new Subject;
     this.status$ = this.statusAvailable.asObservable();
+
+    this.searchBox = new Subject;
+    this.seacrhBoxText$ = this.searchBox.asObservable();
   }
   // getCarouselData(): Observable<any> {
   //   return this.http.get("http://localhost:3000/carosuel")

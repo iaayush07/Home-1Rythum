@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
   public studioFiveData: any = []
   // studio: TemplateRef<NgIfContext<any>>|null;
 
+  public search: any;
 
   // images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
   constructor(config: NgbCarouselConfig, private imageservice: ImageService) {
@@ -45,6 +46,9 @@ export class HomeComponent implements OnInit {
     // this.imageservice.statusAvailable.subscribe((res) => {
     //   console.log(res);
     // })
+    this.imageservice.searchBox.subscribe((res) => {
+      this.search = res;
+    })
   }
 
 
@@ -98,5 +102,30 @@ export class HomeComponent implements OnInit {
       })
     })
   }
+
+  // this.artistTwoData = res.map(item => {
+  //   // console.log(item)
+  //   return {
+  //     image: item.artistimg,
+  //     description: item.artistDescription,
+  //     title: item.artistLocation
+  //   }
+  //   // this.lastFiveData = this.artisFiveData.slice(-5).reverse()
+  //   // this.lastFiveData = this.artisFiveData.slice((this.artisFiveData.length - 5), this.artisFiveData.length).reverse()
+  // })
+
+  // if (this.userTypeId == 1) {
+  //   this.mergeImage = this.studioTwoData.slice(-4).reverse()
+  // }
+
+  // else if (this.userTypeId == 2) {
+  //   this.mergeImage = this.artistTwoData.slice(-4).reverse()
+
+  // }
+
+  // else if (this.userTypeId == 3) {
+  //   this.mergeImage = ((this.studioTwoData.slice(-2).reverse()).concat(this.artistTwoData.slice(-2).reverse()))
+  //   console.log(this.mergeImage);
+  // }
 
 }

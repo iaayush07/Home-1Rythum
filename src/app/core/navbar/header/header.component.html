@@ -41,11 +41,14 @@
                 </ul>
             </div>
             <!-- profile -->
+
             <div class="d-flex">
-                <div class="form-group has-search me-4 bg-light ">
-                    <span class="bi bi-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search">
-                </div>
+                <form class="form-group has-search me-4 bg-light d-flex" [formGroup]="Form">
+                    <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchBoxText"
+                        formControlName="searchinput">
+                    <button class="bi bi-search btn bg-white " [disabled]="Form.invalid" (click)="onSearch()"></button>
+                    <!-- <span class="bi bi-search form-control-feedback search-icon"></span> -->
+                </form>
                 <div ngbDropdown display="dynamic" placement="bottom-end" class="d-inline-block">
                     <!-- <button type="button" class="btn btn-outline-primary" >
                         Toggle dropdown

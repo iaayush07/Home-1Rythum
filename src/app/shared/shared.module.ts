@@ -13,7 +13,8 @@ import { SearchPipe } from './pipe/search.pipe';
   imports: [
     CommonModule
   ],
-  exports: [CardsComponent]
+  exports: [CardsComponent,
+    SearchPipe]
 })
 
 export class SharedModule { }

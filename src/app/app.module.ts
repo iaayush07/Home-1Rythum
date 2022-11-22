@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CoreModule } from './core/core.module';
+import { SearchPipe } from './shared/pipe/search.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { CoreModule } from './core/core.module';
     HttpClientModule,
     CoreModule
   ],
-  providers: [],
+  providers: [
+    SearchPipe
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

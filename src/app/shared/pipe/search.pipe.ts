@@ -11,6 +11,7 @@ export class SearchPipe implements PipeTransform {
       return userData;
     }
     return userData.filter((item: any) =>
+      item.studioEventLocation?.toLocaleLowerCase().includes(searchTxt.toLocaleLowerCase()) ||
       item.eventLocation?.toLocaleLowerCase().includes(searchTxt.toLocaleLowerCase()))
   }
 
