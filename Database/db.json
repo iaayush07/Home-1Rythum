@@ -339,7 +339,7 @@
             "eventEndingDate": "new Date('2019/07/30')"
         },
         {
-            "id": "1",
+            "id": "3",
             "event": "Event 1",
             "eventLocation": "Bangalore",
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
@@ -354,8 +354,8 @@
             "eventEndingDate": " new Date('2019/05/24')"
         },
         {
-            "id": "2",
-            "event": " Event 2'",
+            "id": "4",
+            "event": " Event 6'",
             "eventLocation": "Navsari",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
@@ -369,8 +369,8 @@
             "eventEndingDate": "new Date('2019/07/30')"
         },
         {
-            "id": "1",
-            "event": "Event 1",
+            "id": "5",
+            "event": "Event 7",
             "eventLocation": "surat",
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
             "img": [
@@ -384,8 +384,8 @@
             "eventEndingDate": " new Date('2019/05/24')"
         },
         {
-            "id": "2",
-            "event": " Event 2'",
+            "id": "6",
+            "event": " Event 8'",
             "eventLocation": "Dubai'",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
             "img": [
@@ -399,7 +399,7 @@
             "eventEndingDate": "new Date('2019/07/30')"
         },
         {
-            "id": "1",
+            "id": "7",
             "event": "Event 1",
             "eventLocation": "Bangalore",
             "eventDescription": "In bangalore, first event is going to happen. Please be careful about it",
@@ -414,7 +414,7 @@
             "eventEndingDate": " new Date('2019/05/24')"
         },
         {
-            "id": "2",
+            "id": "8",
             "event": " Event 2'",
             "eventLocation": "Dubai'",
             "eventDescription": "Dubai is another place to host so,e, first event is going to happen. Please be careful about it'",
@@ -427,6 +427,34 @@
             ],
             "eventStartDate": "new Date('2019/07/28')",
             "eventEndingDate": "new Date('2019/07/30')"
+        }
+    ],
+    "user": [
+        {
+            "userDetailId": 1,
+            "FirstName": "John",
+            "LastName": "James",
+            "Email": "john@email.com",
+            "Password": "Abcd123@",
+            "Phone": "9876512345",
+            "CountryId": 1,
+            "StateId": 1,
+            "CityId": 1,
+            "UserTypeId": 1,
+            "DisplayPicture": "https://picsum.photos/900/500?random&t=3"
+        },
+        {
+            "userDetailId": 2,
+            "FirstName": "John",
+            "LastName": "James",
+            "Email": "john@email.com",
+            "Password": "Abcd123@",
+            "Phone": "9876512345",
+            "CountryId": 1,
+            "StateId": 1,
+            "CityId": 1,
+            "UserTypeId": 1,
+            "DisplayPicture": "https://picsum.photos/900/500?random&t=3"
         }
     ]
 }

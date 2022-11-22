@@ -99,6 +99,7 @@ export class HomeComponent implements OnInit {
           this.finalImage = image.img1
           // console.log(this.finalImage);
         })
+
       })
     })
   }

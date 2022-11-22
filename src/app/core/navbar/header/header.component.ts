@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArrayName, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Subject } from 'rxjs';
+import { user } from 'src/app/home.model';
 import { ImageService } from 'src/app/home/image.service';
 
 
@@ -13,7 +14,9 @@ export class HeaderComponent implements OnInit {
 
   public status: boolean;
   public searchBoxText: any;
-  public Form: FormGroup
+  public Form: FormGroup;
+  public userDetail: any;
+  public userId: any;
 
   // public statusAvailable!: Subject<any>;
 
@@ -26,6 +29,8 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getUserDetail();
+    localStorage.setItem("userDetailId", "1")
   }
   onStatus() {
     this.status = !this.status;
@@ -38,6 +43,16 @@ export class HeaderComponent implements OnInit {
 
   onSearch() {
     this.imgService.searchBox.next(this.searchBoxText);
+  }
+
+  getUserDetail() {
+    // const userId = localStorage.getItem("1");
+
+    this.imgService.getuserDetail().subscribe((res: user[]) => {
+      this.userId = res.find(item =>
+        item.userDetailId == 1
+      )
+    })
   }
 
 

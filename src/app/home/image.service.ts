@@ -42,6 +42,9 @@ export class ImageService {
   //------------------------
 
 
+  getuserDetail(): Observable<any> {
+    return this.http.get("http://localhost:3000/user")
+  }
 
 
 }
