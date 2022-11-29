@@ -1,0 +1,90 @@
+.cover-image-wrapper {
+    height: 542px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.image_wrapper {
+    .img_preview {
+        object-fit: cover;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+
+.role-title {
+    font-size: $carousel-font-size;
+}
+
+.role-name {
+    font-size: $carousel-font-size;
+    background: -webkit-linear-gradient(right, #2D6DD5, #35B5C8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3.0px transparent;
+    color: $white;
+}
+
+.available-for-events {
+    font-style: italic;
+    font-weight: $font-weight-light;
+    font-size: $artist-event-font-size;
+    text-transform: capitalize;
+    color: $dark;
+}
+
+.artist-description {
+    font-size: $artist-description;
+    color: $dark;
+}
+
+.event-title {
+    font-weight: $font-weight-semibold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $dark;
+    opacity: 0.6;
+}
+
+.event-details {
+    font-weight: $font-weight-medium;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: $dark;
+}
+
+.artist-detail-field {
+    border: 1px solid #e7e7e8;
+}
+
+.rate {
+    background: rgba(44, 97, 215, 0.15);
+    color: $primary;
+}
+
+
+
+.truncate-overflow {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.icon-wrapper {
+    width: 40px;
+}
+
+.icon {
+    font-size: 25px;
+    cursor: pointer;
+
+    &:hover {
+        color: $primary;
+
+    }
+}

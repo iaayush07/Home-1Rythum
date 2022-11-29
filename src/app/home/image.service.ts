@@ -46,5 +46,9 @@ export class ImageService {
     return this.http.get("http://localhost:3000/user")
   }
 
+  getArtistById(id: number): Observable<any> {
+    const url: string = "http://localhost:3000/artist/" + id;
+    return this.http.get(url);
+  }
 
 }

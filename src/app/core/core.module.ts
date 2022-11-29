@@ -5,20 +5,21 @@ import { HeaderComponent } from './navbar/header/header.component';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ArtistModule } from '../artist/artist.module';
 
 
 @NgModule({
   declarations: [
     MasterComponent,
     HeaderComponent,
-
   ],
   imports: [
     CommonModule,
     RouterModule,
     NgbModule,
     ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }),
-    FormsModule
+    FormsModule,
+    ArtistModule
   ],
   exports: [
     MasterComponent, HeaderComponent

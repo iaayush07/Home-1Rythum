@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { user } from 'src/app/home.model';
 import { ImageService } from 'src/app/home/image.service';
 
@@ -9,55 +10,33 @@ import { ImageService } from 'src/app/home/image.service';
 })
 export class CardsComponent implements OnInit {
 
+
+  /**
+   *  @author : Ayush Dhimmar
+   */
   @Input() data: any;
-  message: string;
-  sta: boolean;
-  userId: any;
 
-
-  public id: number;
-  constructor(private imgService: ImageService) {
-    this.data = [];
-    this.id = 1;
-
-
-    //---
-    this.message = "temperory closed";
-    this.sta = false;
-
+  constructor(private router: Router) {
 
   }
 
+  /**
+   *  @author : Ayush Dhimmar
+   */
   ngOnInit(): void {
-    this.status();
-    // this.getUserDetail();
   }
 
-  status() {
-    this.imgService.statusAvailable.subscribe((res) => {
-      this.sta = res;
-      if (res === true) {
-        this.message = this.data['eventDescription']
-      }
-      else {
-        this.message = "temperory closed"
-      }
-    })
+  /** 
+     * @author : Charvi Sarang
+     * setting routing of studio & artist by Id
+     */
+  onViewDescription(item: number, id: number) {
+    if (id == 1) {
+      this.router.navigate(["studio/studio-description", item]);
+    }
+    else if (id == 2) {
+      this.router.navigate(["artist/artist-description", item]);
+    }
   }
-
-  getUserDetail() {
-    // const userId = localStorage.getItem("1");
-
-    this.imgService.getArray().subscribe((res: user[]) => {
-      // console.log(res);
-
-      this.userId = res.find((item: any) =>
-        item.id == 8
-      )
-      // this.status();
-      // console.log(this.userId);
-    })
-  }
-
 
 }
