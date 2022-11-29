@@ -7,7 +7,7 @@ export class artistData {
     public artistType?: {
         artistTypeName: string;
     };
-    public artistImages?: {
+    public artistImage?: {
         artistImage: string;
     }
 }

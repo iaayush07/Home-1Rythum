@@ -3,7 +3,7 @@
     <div class="image-wrapper rounded overflow-hidden d-flex align-items-center justify-content-center mb-2">
         <!-- Displaying dynamic cover image -->
         <!--  @author : Ayush Dhimmar -->
-        <img src="{{'data:image/jpg;base64,' + data.images.artistImage}}" class="h-100 w-100" *ngIf="data.typeId == 2">
+        <img src="{{'data:image/jpg;base64,' + data.images.artistImages}}" class="h-100 w-100" *ngIf="data.typeId == 2">
         <img src="{{'data:image/jpg;base64,' + data.images.studioImage}}" class="h-100 w-100" *ngIf="data.typeId == 1">
     </div>
     <div class="card-body p-0">
@@ -20,7 +20,7 @@
         </div>
         <!-- Button for view details of artist/studio -->
         <a class="btn btn-outline-secondary d-flex align-items-center justify-content-center"
-            (click)="onViewDescription(data.id,data.typeId)">View
+            (click)="onViewDescription(data,data.typeId)">View
             Details</a>
     </div>
 </div>

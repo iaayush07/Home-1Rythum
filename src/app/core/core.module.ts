@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MasterComponent } from './master/master.component';
 import { HeaderComponent } from './navbar/header/header.component';
 import { RouterModule } from '@angular/router';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ArtistModule } from '../artist/artist.module';
 
@@ -17,12 +17,13 @@ import { ArtistModule } from '../artist/artist.module';
     CommonModule,
     RouterModule,
     NgbModule,
+    NgbCarouselModule,
     ReactiveFormsModule.withConfig({ warnOnNgModelWithFormControl: 'never' }),
     FormsModule,
     ArtistModule
   ],
   exports: [
-    MasterComponent, HeaderComponent
+    MasterComponent, HeaderComponent, NgbModule
   ]
 })
 export class CoreModule { }

@@ -78,7 +78,7 @@ export class HomeComponent implements OnInit {
             id: item.artistId,
             name: item.artistName,
             description: item.artistType,
-            images: item.artistImage,
+            images: item.artistImages,
             typeId: 2
           }
         }).slice(0, 6);

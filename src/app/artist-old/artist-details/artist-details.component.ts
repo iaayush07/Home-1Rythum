@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ImageService } from 'src/app/home/image.service';
+import { artistData } from '../artist.model';
 
 @Component({
   selector: 'app-artist-details',
@@ -9,8 +10,11 @@ import { ImageService } from 'src/app/home/image.service';
 })
 export class ArtistDetailsComponent implements OnInit {
   public id: string;
-
+  public artist: artistData;
   constructor(private artistService: ImageService, private route: ActivatedRoute) {
+    console.log(route);
+
+    this.artist = new artistData();
     this.id = '';
     this.route.params.subscribe(params => {
       this.id = params['id'];
@@ -22,9 +26,9 @@ export class ArtistDetailsComponent implements OnInit {
   }
 
   public getArtistDetails() {
-    this.artistService.getArtistById(Number(this.id)).subscribe((artist) => {
+    this.artistService.getArtistById(Number(this.id)).subscribe((artist: artistData[]) => {
       console.log(artist);
-
+      // this.artist = artist;
     })
   }
 

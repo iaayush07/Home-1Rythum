@@ -1,7 +1,7 @@
 {
     "studio": [
         {
-            "studioId": 1,
+            "studioId": 21,
             "studioName": "Creative Studio ",
             "studioDescription": "Having All the Instruments",
             "studioAddress": "Valsad, 396375",
@@ -200,13 +200,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",
@@ -225,13 +223,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",
@@ -250,13 +246,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",
@@ -275,13 +269,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",
@@ -300,13 +292,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",
@@ -325,617 +315,11 @@
             "artistDescription": "Solo Performer",
             "artistTypeId": 1,
             "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 7,
-            "artistName": "Smith Dave 7",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 8,
-            "artistName": "Smith Dave 8",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 9,
-            "artistName": "Smith Dave 9",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 10,
-            "artistName": "Smith Dave 10",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        }
-    ],
-    "user": [
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        },
-        {
-            "firstName": "John",
-            "lastName": "James",
-            "email": "john@email.com",
-            "password": "Abcd123@",
-            "phone": "9876512345",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "userTypeId": 1,
-            "image": "Picture"
-        }
-    ],
-    "studio": [
-        {
-            "studioId": 21,
-            "studioName": "Creative Studio ",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 2,
-            "studioName": "Creative Studio 2",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 3,
-            "studioName": "Creative Studio 3",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 4,
-            "studioName": "Creative Studio 4",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 5,
-            "studioName": "Creative Studio 5",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 6,
-            "studioName": "Creative Studio 6",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 7,
-            "studioName": "Creative Studio 7",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        },
-        {
-            "studioId": 8,
-            "studioName": "Creative Studio 8",
-            "studioDescription": "Having All the Instruments",
-            "studioAddress": "Valsad, 396375",
-            "hardwareAndEquipment": "Microphones",
-            "countryId": 1,
-            "stateId": 1,
-            "cityId": 1,
-            "studioDays": "Monday to Friday",
-            "studioHours": "10:00 to 8:00",
-            "status": "Available",
-            "studioServiceTypeId": 1,
-            "eventRates": [
-                "Jam:2000, Record:4000"
-            ],
-            "studioImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ]
-        }
-    ],
-    "artist": [
-        {
-            "artistId": 1,
-            "artistName": "Smith Dave",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 2,
-            "artistName": "Smith Dave",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 3,
-            "artistName": "Smith Dave",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 4,
-            "artistName": "Smith Dave",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 5,
-            "artistName": "Smith Dave",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
-            "statusForEvent": "Yes",
-            "eventDays": "Monday to Friday",
-            "eventRates": "4000",
-            "statusForClass": "Yes",
-            "classDays": "Monday to Friday",
-            "duration": "10:00 to 8:00",
-            "ClassTypeId": 1,
-            "classRates": [
-                "Guitar:2000, Tabla:4000"
-            ],
-            "classAddress": "Valsad, 396375"
-        },
-        {
-            "artistId": 6,
-            "artistName": "Smith Dave 6",
-            "artistDescription": "Solo Performer",
-            "artistTypeId": 1,
-            "performanceTypeId": 1,
-            "artistImages": [
-                {
-                    "img1": "https://picsum.photos/900/500?random&t=5",
-                    "img2": "https://picsum.photos/900/500?random&t=2",
-                    "img3": "https://picsum.photos/900/500?random&t=3"
-                }
-            ],
+            "artistImages": {
+                "img1": "https://picsum.photos/900/500?random&t=5",
+                "img2": "https://picsum.photos/900/500?random&t=2",
+                "img3": "https://picsum.photos/900/500?random&t=3"
+            },
             "statusForEvent": "Yes",
             "eventDays": "Monday to Friday",
             "eventRates": "4000",

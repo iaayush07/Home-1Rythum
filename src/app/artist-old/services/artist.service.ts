@@ -10,7 +10,7 @@ export class ArtistService {
   public baseUrl: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = "http://localhost:3000/";
+    this.baseUrl = environment.baseUrl;
   }
 
   /**
@@ -19,7 +19,7 @@ export class ArtistService {
    * @returns artistData : array
    */
   getArtistData(): Observable<artistData[]> {
-    const url = this.baseUrl + "artist";
+    const url = this.baseUrl + "artist/allArtists";
     return this.http.get<artistData[]>(url);
   }
 }
